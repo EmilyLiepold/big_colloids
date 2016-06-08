@@ -1,12 +1,4 @@
 
-;Test
-
-;Test again
-
-;Testing fetching
-
-;And testing the commit and pull again
-
 pro Full_Ds_vs_eta
 
   compile_opt idl2
