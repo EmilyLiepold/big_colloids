@@ -39,7 +39,7 @@ pro mc_single_cavity_ring_diffusion,maindir, valdir,  $
   if keyword_set(nframes) then nframes = nframes else begin
     trfr = read_gdf(valdir+'trfr')
     nframes = max(trfr)
-  endif
+  endelse
   
   dsrt = read_gdf(valdir+'Dsrt')
   tr = read_gdf(valdir+'trpos')  
